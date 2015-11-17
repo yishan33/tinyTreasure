@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Weekly Mark</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/wangEditor-1.3.12.css">
+
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body role="document">
+
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#navbar" aria-control="navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">一周一记</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">目录</a></li>
+                    <li><a href="#">查看</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <img src="headImage.jpg" width="30" height="30" vspace="10">
+                    </li>
+                    <li><a href="userName">陌小四</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">第一周</span>
+          <input type="text" class="form-control" placeholder="标题" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- <div class="wangEditor-container">
+            <div class="wangEditor-btn-container clearfix">
+                <div class="wangEditor-btn-container-group">
+                    <div class="wangEditor-toolTip" style="margin-left: -13px; display: none;">
+                        <div class="wangEditor-toolTip-content">查看源码</div>
+                    </div>
+                    <a href="#" class="wangEditor-btn-container-btn wangEditor-btn-container-btn-default" title>
+                        <i class="icon-wangEditor-code">
+                        ::before
+                        </i>
+                    </a>
+                </div>
+                <div class="wangEditor-btn-container-group">
+                    <div class="wangEditor-toolTip" style="margin-left: -2.5px; display: none;">
+                        <div class="wangEditor-toolTip-content">加粗</div>
+                    </div>
+                    <a class="wangEditor-btn-container-btn wangEditor-btn-container-btn-default" href="#" titlecommandname="bold">
+                        <i class="icon-wangEditor-bold">::before</i>
+                    </a>
+                </div>
+                <div class="wangEditor-btn-container-group"></div>
+                <div class="wangEditor-btn-container-group"></div>
+                <div class="wangEditor-btn-container-group"></div>
+                <div class="wangEditor-btn-container-group"></div>
+
+            </div>
+            <div class="wangEditor-textarea-container" style="max-height: 400px;" ></div>
+            <a href="#" class="wangEditor-elemDeleteBtn"></a>
+            <div class="wangEditor-imgResize"></div>
+        </div> -->
+
+        <!-- <div id="divEditor"></div>
+        <textarea id='textCode' style='height:200px; max-height:400px; width:100%;'>
+        </textarea> -->
+        <div class="btn-toolbar" data-role="editor-toolbar" data-target="#editor">
+            <div class="btn-group">
+                <a class="btn dropdown-toggle" data-toggle="dropdown" title data-original-title="Font">
+                    <i class="icon-font">
+                    </i>
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a data-edit="fontName Serif" style="font-family:'Serif'">Serif</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <a class="btn" data-edit="bold" title data-original-title="Bold (Ctrl/Cmd+B)">
+                    <i class="icon-bold">
+                        ::before
+                    </i>
+                </a>
+            </div>
+
+        </div>
+        <div id="editor" contenteditrable="true">
+            Go ahead...
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/wangEditor-1.3.12.min.js" ></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="bootstrap-wysiwyg.js"></script>
+
+
+</body>
+</html>
